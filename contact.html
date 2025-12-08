@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crimson Veil - Contact</title>
+    <link rel="stylesheet" href="styles.css"> <link rel="icon" href="icons/logo.png" type="image/png" sizes="16x16 32x32">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <meta name="description" content="Get in touch with the Crimson Veil team for inquiries, support, or information.">
+    <meta name="author" content="Crimson Veil Team">
+    <meta name="keywords" content="moda urbana, streetwear, outfits, fashion">
+    <meta property="og:title" content="Crimson Veil | Contact and Support">
+    <meta name="theme-color" content="#ffffff">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Crimson Veil - Contact",
+        "url": "https://9juanlu.github.io/contact.html",
+        "description": "Get in touch with the Crimson Veil team for inquiries, support, or information."
+    }
+    </script>
+    </head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+            <div class="container-fluid">
+            <a href="index.html" class="logo">
+                <img src="img/crimsonveillogo.png" alt="Crimson Veil">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="women.html">Women</a></li>
+                <li class="nav-item"><a class="nav-link" href="men.html">Men</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    
+
+   <main id="contact-section" class="container">
+        <div class="container contact-container">
+            <div class="row">
+                <div class="col-lg-5 contact-info-column">
+                    <h2>Contact Information</h2>
+                    <p>Have questions, feedback, or need support? Reach out to us through the following channels or use the contact form.</p>
+                    
+                    <div class="info-group">
+                        <i class="bi bi-envelope-fill"></i>
+                        <p><strong>Email:</strong> support@crimsonveil.com</p>
+                    </div>
+                    
+                    <div class="info-group">
+                        <i class="bi bi-telephone-fill"></i>
+                        <p><strong>Phone:</strong> (+34) 690 99 19 29</p>
+                    </div> 
+                </div>
+
+                <div class="col-lg-7 contact-form-column">
+                    <h2>Send Us a Message</h2>
+                    <form action="dades.php" method="POST" class="contact-form">
+                        
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required> 
+                            <label class="form-check-label" for="flexCheckDefault">
+                                I accept the <a href="privacy-policy.html" target="_blank" class="text-decoration-underline">Privacy Policy</a>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn contact-submit-btn">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-main">
+
+            <div class="footer-left">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><img src="icons/instagram.png" alt="Instagram"></a>
+                    <a href="#" aria-label="Twitter"><img src="icons/x.png" alt="Twitter"></a>
+                    <a href="#" aria-label="TikTok"><img src="icons/tiktok.png" alt="TikTok"></a>
+                    <a href="#" aria-label="Pinterest"><img src="icons/pinterest.png" alt="Pinterest"></a>
+                </div>
+            </div>
+
+            <div class="footer-center">
+                <h4>Sections</h4>
+                <ul class="footer-links">
+                    <li><a href="women.html">Women</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <h4>Stay Posted</h4>
+                <p>Sign up to our Newsletter for latest news, offers and updates.</p>
+
+                <form action="dades.php" method="post" class="newsletter-form">
+                    <input type="email" name="email" placeholder="Email" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Crimson Veil — Urban Identity, Bold Future.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
