@@ -76,7 +76,7 @@ body {
 
 .side {
     position: relative;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -604,4 +604,5 @@ footer {
     .carousel-img {
         height: 60vh;
     }
+
 }
